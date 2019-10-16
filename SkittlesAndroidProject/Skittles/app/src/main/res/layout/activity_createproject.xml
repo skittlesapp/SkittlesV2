@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_createproject"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".createproject">
+
+
+    <TextView
+        android:id="@+id/projectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Name"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/createProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/projectName"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name of the project"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/maxTeams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createProject"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:text="Maximum Number of Teams" />
+
+    <EditText
+        android:id="@+id/maxNoTeams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxTeams"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/projectDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxNoTeams"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Project Description" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/projectDetailed"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/projectDes">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/projectDetailed1"
+            android:hint="What is the purpose of the project" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonCreate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/projectDetailed"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:background="@color/colorPrimary"
+        android:text="Create Project" />
+
+
+</RelativeLayout>

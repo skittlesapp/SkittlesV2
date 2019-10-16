@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_user_stories"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".user_stories">
+
+
+    <TextView
+        android:id="@+id/userStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Stories"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userStories"
+        android:id="@+id/userStoriesEdit"
+        android:layout_marginTop="40dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User stories for the current Sprint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/infoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User stories are to be deleted after the sprint retrospective"
+        android:layout_below="@id/userStoriesEdit"
+        android:textStyle="italic"
+
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveUserStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoView"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#000000"
+        android:text="Save User Stories" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSaveUserStories"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Edit User Stories" />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1052305270289",
+    "firebase_url": "https://skittlessdp.firebaseio.com",
+    "project_id": "skittlessdp",
+    "storage_bucket": "skittlessdp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052305270289:android:26841b3b753f8bf2",
+        "android_client_info": {
+          "package_name": "com.example.skittles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052305270289-8cj9t42e9e4rl0dp1jo9fud4jhpd8fj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skittles",
+            "certificate_hash": "6cb1aacc405bbf4c2457813b744fa2441d4b0f0f"
+          }
+        },
+        {
+          "client_id": "1052305270289-nlblucq2u6dsnuen5l908sfjuq2p3hpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skittles",
+            "certificate_hash": "8cc667fc20d0d9a675f76d52ddeb47633dceb8eb"
+          }
+        },
+        {
+          "client_id": "1052305270289-5k3hk2a5lkk9081i0hmbb89utehnuvhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrbaMBjtL75Gag_kqx2diyT9dT77YLifQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052305270289-5k3hk2a5lkk9081i0hmbb89utehnuvhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

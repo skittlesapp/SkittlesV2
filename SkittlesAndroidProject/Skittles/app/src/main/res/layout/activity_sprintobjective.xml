@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_sprint_objective"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".sprintobjective">
+
+
+
+
+    <TextView
+        android:id="@+id/sprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamName1"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:text="Ending Sprint Review" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sprintReview"
+        android:layout_below="@+id/sprint"
+        android:layout_marginTop="10dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sprintReview1"
+            android:layout_alignTop="@+id/sprintReview"
+            android:hint="Sprint Perfomance For Selected Team" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/sprintObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sprintReview"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Upcoming Sprint Objective" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sprintObj"
+        android:id="@+id/sprintObjective"
+        android:layout_marginTop="20dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sprintObjective1"
+            android:hint="Sprint Objective For the Upcoming Sprint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/scrumButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endDate"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#000000"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/sprintNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sprintName"
+        android:hint="eg Sprint 2"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/sprintName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sprintObjective"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text=" Upcoming Sprint Name" />
+
+    <TextView
+        android:id="@+id/SprintStartandEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sprintNumber"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="Upcoming Sprint Start and End Date" />
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/SprintStartandEnd"
+        android:hint="sprint start date 'DD/MM/YY' "
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="sprint end date 'DD/MM/YY'"
+        android:layout_below="@+id/startDate"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/TeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Team Name" />
+
+    <EditText
+        android:id="@+id/teamName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="team name "
+        android:layout_below="@+id/TeamName"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

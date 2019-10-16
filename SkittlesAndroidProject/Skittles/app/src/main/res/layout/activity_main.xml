@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/ProductOwner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Product Owner"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:onClick="onProductOwner"/>
+
+
+    <Button
+        android:id="@+id/change_email_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Student"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:onClick="onStudent"/>
+
+
+    <Button
+        android:id="@+id/lecturer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Lecturer"
+        android:textStyle="bold"
+        android:onClick="onLecturer"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Group Message"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Sign Out"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:onClick="onSignOut"/>
+</LinearLayout>
