@@ -1,28 +1,40 @@
+sudo: false
+
 language: android
 
 env:
-  matrix:
-    - ANDROID_TARGET=android-22 ANDROID_ABI=armeabi-v7a
+  global:
+    - ANDROID_TARGET=android-22
+    - ANDROID_ABI=armeabi-v7a
 
 android:
   components:
-    - build-tools-22.0.1
-    - android-23
-    - extra-android-m2repository
+  - tools #
+  - tools
+  - platform-tools
+  - build-tools-28.0.3
+  - android-26
+  - add-on
+  - extra
+  - $ANDROID_TARGET
+  - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
 
-    - android-22
-    - sys-img-armeabi-v7a-android-22
+licenses:
+- 'android-sdk-license-.+'
 
-before_script:
+before_install:
+  - yes | sdkmanager "platforms;android-27"
+
+script:
+ 
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
   - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
   - emulator -avd test -no-skin -no-audio -no-window &
   - android-wait-for-emulator
-  - adb shell input keyevent 82 &
-
-script:
-  - echo "Travis branch is $TRAVIS_BRANCH"
-  - echo "Travis branch is in pull request $TRAVIS_PULL+REQUEST"
-  
-  - ./gradlew connectedAndroidTest coveralls
+  - adb shell setprop dalvik.vm.dexopt-flags v=n,o=v
+ 
 
 
+after_success:
+    - ./gradlew check jacocoTestReport coveralls
