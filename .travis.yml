@@ -38,3 +38,4 @@ script:
 
 after_success:
     - ./gradlew check jacocoTestReport coveralls
+    - bash <(curl -s https://codecov.io/bash)
