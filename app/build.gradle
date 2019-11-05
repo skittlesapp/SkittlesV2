@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'jacoco'
 
 android {
     compileSdkVersion 28
@@ -34,6 +35,8 @@ dependencies {
     implementation 'com.firebase:firebase-client-android:2.5.2'
 
     testImplementation 'junit:junit:4.12'
+    testImplementation 'org.assertj:assertj-core:1.7.1'
+    
     //api 'com.android.support:design:24.0.0'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
