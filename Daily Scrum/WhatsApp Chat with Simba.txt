@@ -1,0 +1,216 @@
+30/7/19, 4:10 pm - Messages to this chat and calls are now secured with end-to-end encryption. Tap for more info.
+30/7/19, 4:10 pm - Simba: Hey
+30/7/19, 4:12 pm - Simba: We in the lab where l was
+3/8/19, 2:44 pm - Simba: nqobile
+3/8/19, 3:20 pm - Sparks: Hi Simba
+3/8/19, 3:22 pm - Simba: dem l am not getting a anything on slack where did u get the tutorial
+3/8/19, 3:23 pm - Sparks: The one I shared yesterday?
+3/8/19, 3:24 pm - Simba: most things which l saw they are not buiding they are just activating features
+3/8/19, 3:29 pm - Sparks: https://hackernoon.com/a-guide-to-building-a-multi-featured-slackbot-with-python-73ea5394acc
+3/8/19, 3:29 pm - Sparks: i read this article
+3/8/19, 3:32 pm - Sparks: https://medium.com/alex-attia-blog/build-a-first-simple-slack-bot-with-python-5392ef359835
+3/8/19, 3:32 pm - Sparks: https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+3/8/19, 3:33 pm - Sparks: these ones use python for the slack chatbot
+3/8/19, 3:34 pm - Sparks: https://api.slack.com/tutorials/tags/python
+3/8/19, 3:50 pm - Simba: Okay will check it
+3/8/19, 4:03 pm - Simba: are u able to do it now that a whole documentation that page
+3/8/19, 4:08 pm - Sparks: I'll upload the description later today
+9/8/19, 10:52 am - Sparks: Hi Simba
+9/8/19, 10:53 am - Sparks: <Media omitted>
+9/8/19, 11:50 am - Simba: Just choose what u can do
+9/8/19, 4:30 pm - Simba: which one did u choose
+9/8/19, 6:02 pm - Sparks: For sprint 1 I can work on the login and logup screens
+9/8/19, 6:02 pm - Sparks: I mean sign up
+9/8/19, 7:14 pm - Simba: I will do login and teams view page
+9/8/19, 7:23 pm - Sparks: 👆are you working on a different login?
+9/8/19, 7:24 pm - Simba: oo okay launch teams page
+9/8/19, 7:25 pm - Simba: But pple for database must move coz l just need to pull data from there
+9/8/19, 8:06 pm - Sparks: Okay
+24/8/19, 11:49 am - Sparks: <Media omitted>
+24/8/19, 12:10 pm - Simba: Was one if my functions for generating random number array
+24/8/19, 12:13 pm - Sparks: Okay, do I need to add it to my code ?
+24/8/19, 12:14 pm - Simba: U just have to pass in the code which was generating byr random array
+24/8/19, 12:21 pm - Sparks: Okay,let me try it out..
+28/8/19, 12:41 pm - Sparks: Hi Simba, my contribution to the frontend part of the project (SDP) between today and Friday will be very little because of the test on Friday. I will continue with the normal contribution after Friday. Sorry for any inconvenience.
+28/8/19, 12:49 pm - Simba: Cool
+10/9/19, 10:17 pm - Simba: <Media omitted>
+10/9/19, 10:21 pm - Simba: <Media omitted>
+10/9/19, 10:28 pm - Sparks: I'll vote for you Simba😆✊
+10/9/19, 10:29 pm - Simba: 🥰🥰leadership
+17/9/19, 8:46 am - Simba: I pushed code to my branch but it still have those bugs so if u can merge with yrs
+17/9/19, 8:53 am - Sparks: Okay
+17/9/19, 9:26 am - Sparks: <Media omitted>
+17/9/19, 9:27 am - Sparks: This is the first screen I see. I can't see the sign up and sign in parts
+17/9/19, 10:57 am - Simba: Uninstall wat u have and install again
+17/9/19, 11:43 am - Sparks: Are you on campus?
+18/9/19, 5:33 pm - Simba: Did u vote
+18/9/19, 6:21 pm - Sparks: <Media omitted>
+18/9/19, 6:23 pm - Simba: Yes yes thank you
+18/9/19, 6:23 pm - Sparks: <Media omitted>
+18/9/19, 6:24 pm - Simba: 🙂confrim vote
+18/9/19, 6:38 pm - Sparks: It's been confirmed
+18/9/19, 6:39 pm - Sparks: <Media omitted>
+12/10/19, 10:56 pm - Sparks: Please send me your email
+12/10/19, 10:56 pm - Simba: 1325952
+12/10/19, 11:04 pm - Simba: ?????
+13/10/19, 12:19 am - Sparks: If the app I uploaded an hour ago doesn't work. I've fixed it, I was trying to use firestore but couldn't.
+
+But I have uploaded the working one. It's on GitHub under skittlesV2.
+13/10/19, 12:20 am - Simba: Did u implement sign out?
+13/10/19, 12:21 am - Sparks: <Media omitted>
+13/10/19, 12:21 am - Sparks: Yep
+13/10/19, 12:28 am - Simba: Commit to master l fixed the error
+13/10/19, 12:28 am - Simba: Or merge yr branch with master
+15/10/19, 11:02 am - Simba: Nope l failed was crushing around 4
+15/10/19, 11:03 am - Sparks: Send me the latest code
+15/10/19, 11:04 am - Simba: Pull from my branch
+15/10/19, 11:04 am - Sparks: Okay
+15/10/19, 11:05 am - Sparks: So how are going to present?
+15/10/19, 11:06 am - Sparks: Are we only going to present what Terence wanted to see?
+15/10/19, 11:16 am - Simba: I guess we do that
+15/10/19, 11:59 am - Sparks: Okay is it merged with master. I want to do the *release*
+15/10/19, 12:19 pm - Simba: Okay cool
+15/10/19, 12:19 pm - Sparks: Have you merged it?
+15/10/19, 12:31 pm - Simba: Where are u
+15/10/19, 12:32 pm - Simba: Missed voice call
+15/10/19, 1:01 pm - Sparks: Please export the SDP group chat🙏🙏
+15/10/19, 1:18 pm - Simba: Okay sending now
+15/10/19, 1:21 pm - Simba: Send me yr email
+15/10/19, 1:22 pm - Sparks: nqobilemhlanga.nm@gmail.com
+16/10/19, 10:07 am - Simba: Nqobile l sent u an invite to a new repo we are working us only ,don't tell them yet until tommorw when l remove everything of ours from the repo
+16/10/19, 11:49 am - Sparks: Okay
+18/10/19, 7:56 am - Sparks: Hi Simba, so this means there is no sprint planning with the team since we are working in separate teams right?
+18/10/19, 10:35 am - Simba: Definitely
+18/10/19, 10:42 am - Sparks: We are meeting with the team?
+18/10/19, 10:43 am - Simba: No there is no of continuing with  them
+18/10/19, 10:44 am - Sparks: Okay
+18/10/19, 10:45 am - Sparks: So when will have our sprint planning meeting?
+18/10/19, 10:59 am - Simba: Ummmm Monday or any day during the weekend if u can
+18/10/19, 11:17 am - Sparks: Monday🙏
+18/10/19, 11:18 am - Sparks: Have you created a a new project on taiga
+18/10/19, 11:23 am - Simba: not yeat
+18/10/19, 12:05 pm - Sparks: Okay
+20/10/19, 10:06 pm - Sparks: Hi Simba, what time are we meeting tomorrow?
+20/10/19, 10:11 pm - Simba: Wat time do u wanna meet
+20/10/19, 10:17 pm - Sparks: 12:30?
+20/10/19, 11:00 pm - Simba: Okay cool
+21/10/19, 12:18 pm - Simba: I will be a bit late with like 10 minutes
+21/10/19, 12:27 pm - Sparks: Okay, I'm at the labs
+21/10/19, 12:50 pm - Sparks: Hi Simba, where are you?😅
+23/10/19, 10:46 am - Sparks: May I please be in your team, am working on righting the test for the project currently and I should get them working by next week, cause I cannot afford to do a new project when it's time for exams
+23/10/19, 10:46 am - Sparks: Hi Simba, I got this msg from Thabiso
+23/10/19, 10:49 am - Simba: No he is the one who put us in this mess
+23/10/19, 10:49 am - Simba: main culprit
+23/10/19, 11:06 pm - Sparks: <Media omitted>
+23/10/19, 11:18 pm - Simba: Okay cool
+24/10/19, 8:43 pm - Sparks: I created the project on taiga (with the 4 sprints). I will continue editing it after next week because next week I have 3 exams.
+25/10/19, 12:36 am - Simba: Okay l wanna shit wiki from github to taiga it disturb us from putting coveralls on github
+25/10/19, 4:41 am - Sparks: I'm confused
+25/10/19, 7:51 am - Sparks: <Media omitted>
+25/10/19, 12:20 pm - Simba: Okay will
+25/10/19, 12:21 pm - Simba: So l will explain
+25/10/19, 12:32 pm - Sparks: 👍👍
+25/10/19, 1:52 pm - Sparks: <Media omitted>
+25/10/19, 2:07 pm - Simba: WHERE DO l go on github to give admin rights
+25/10/19, 2:23 pm - Sparks: Create an organisation like " *teamskittles* "
+25/10/19, 2:23 pm - Sparks: It should allow you to make someone else admin
+25/10/19, 2:35 pm - Simba: dem okay
+25/10/19, 4:20 pm - Sparks: You'll see in the old repository I added the codecov badge. When you click on it, it takes you to the codecov actual page.
+
+I think the problem is the *jacoco* stuff.
+
+I'll check again after next week.
+4/11/19, 5:31 pm - Sparks: <Media omitted>
+4/11/19, 6:20 pm - Simba: okay l sent
+4/11/19, 6:21 pm - Simba: we need more focus on code ,no worrys wll get atleast 45 on code
+4/11/19, 6:37 pm - Sparks: 👍👍
+4/11/19, 8:42 pm - Sparks: Please don't forget to make me admin. I'm gonna try join the two apps this week
+4/11/19, 8:42 pm - Simba: Okay
+5/11/19, 8:37 pm - Sparks: -I created an organisation and added you. Let me know if you also have admin rights.
+
+-I imported the repository. I will copy and paste the docs later.
+
+-As for the code coverage badge. I have been working on it for many hours and it still doesn't work.
+5/11/19, 8:38 pm - Simba: Okay will join u on Friday l am writing PC
+5/11/19, 8:38 pm - Sparks: Okay
+8/11/19, 8:56 pm - Simba: l am done with pc tommorw we move with the project
+8/11/19, 9:13 pm - Sparks: Okay,
+
+You'll see on taiga that I've documented sprint 1-3 on the new project. Sprint 4 is the only one that is not documented on taiga.
+9/11/19, 1:29 am - Simba: OKAY
+9/11/19, 10:39 pm - Simba: Nqobile have been working will upload tommorw
+9/11/19, 10:54 pm - Sparks: -Automatically add sprint
+-Lecturer decides
+-Add students and put students to a group
+-Product owner multiple projects
+-Assignment
+9/11/19, 10:55 pm - Sparks: Which one were you working on?
+9/11/19, 10:57 pm - Simba: U with see
+9/11/19, 10:57 pm - Simba: Some things we not doing there Terrence is crazy
+9/11/19, 11:09 pm - Sparks: Okay
+10/11/19, 10:22 am - Sparks: <Media omitted>
+10/11/19, 10:26 am - Sparks: Could you please upload the app on google drive?🙏
+ 
+I want to read the code see how it works so that I can make the necessary changes.
+
+I cloned the one that is github but it just gives me the files.
+10/11/19, 10:46 am - Sparks: <Media omitted>
+10/11/19, 10:57 am - Sparks: The main change is using the same id to save the data to the database. I'll be using getUid() to do it. I've already used it for the authentication part of the project.
+10/11/19, 12:02 pm - Simba: Its not using the same Id that wat was kicking me yesterday
+10/11/19, 12:03 pm - Simba: It keep on adding records l will upload later just wokw up
+10/11/19, 12:05 pm - Simba: So usee wat must happen users must be the main thing then the rest must come under there
+10/11/19, 6:45 pm - Simba: I think around mid night if the problem persists will switch to SQL
+10/11/19, 7:18 pm - Sparks: What problem are you talking about?
+10/11/19, 7:35 pm - Simba: Iike an account for one person have own data
+10/11/19, 7:45 pm - Sparks: https://stackoverflow.com/questions/30910704/how-do-i-link-each-user-to-their-data-in-firebase
+10/11/19, 7:46 pm - Sparks: I have already done it for *authentication*
+10/11/19, 7:46 pm - Sparks: I can do it for the rest of the *data*
+10/11/19, 7:47 pm - Simba: Oooo NYC so do it and push so that l can continue with my user stories
+10/11/19, 7:49 pm - Sparks: Put the app on *google drive* please🙏,
+10/11/19, 7:49 pm - Sparks: The one on github is making me copy and paste the files
+10/11/19, 7:51 pm - Simba: Wait u cant download it or
+10/11/19, 7:53 pm - Sparks: I've downloaded it but I have to copy and paste the code. 
+
+I need to see how the app actually works.
+10/11/19, 7:54 pm - Sparks: nqobilemhlanga.nm@gmail.com
+10/11/19, 7:56 pm - Simba: Okay sending but l am home now was about to setup SQL if u said u can fixed the data thimg l can go back to msl and continue
+10/11/19, 7:57 pm - Sparks: 👍👍
+10/11/19, 9:33 pm - Sparks: Waiting😅😅
+10/11/19, 10:00 pm - Simba: Sending just reached campus
+10/11/19, 10:14 pm - Sparks: Okay
+10/11/19, 10:23 pm - Simba: Sent
+11/11/19, 4:27 am - Sparks: Okay
+11/11/19, 2:44 pm - Sparks: <Media omitted>
+11/11/19, 2:45 pm - Sparks: Is this true?
+11/11/19, 4:27 pm - Simba: Yeah
+11/11/19, 4:27 pm - Simba: Did u fix that linking thing
+11/11/19, 5:04 pm - Simba: Missed voice call
+11/11/19, 5:25 pm - Sparks: I've managed to join the codes, I'm working on the  linking now
+11/11/19, 5:29 pm - Simba: Can u push wat u have
+11/11/19, 5:29 pm - Simba: Wanna join with mine
+11/11/19, 5:32 pm - Sparks: Are U at msl?
+11/11/19, 5:35 pm - Simba: Yeah
+11/11/19, 5:36 pm - Sparks: I'm coming, there is an issue
+11/11/19, 5:37 pm - Simba: Wat time
+11/11/19, 5:43 pm - Sparks: 18:15
+11/11/19, 5:46 pm - Sparks: Are U still gonna be there?
+11/11/19, 5:52 pm - Simba: Yeah
+11/11/19, 8:05 pm - Sparks: I'm done
+11/11/19, 8:06 pm - Simba: Dem went get food on my way please do leave
+11/11/19, 8:07 pm - Simba: Dont leave on my way
+11/11/19, 9:23 pm - Sparks: https://youtu.be/2pOCfKYO5Ao
+11/11/19, 11:48 pm - Sparks: I'll try using firebase test lab to test our app
+11/11/19, 11:49 pm - Sparks: I discovered testlab a few minutes ago
+12/11/19, 12:01 am - Simba: Okay cool
+12/11/19, 12:02 am - Simba: Are u able to push to the database
+12/11/19, 5:31 am - Sparks: What do you mean?
+12/11/19, 5:33 am - Sparks: Are these the user stories I'm adding to taiga?
+12/11/19, 5:34 am - Simba: I am failing to pull data for the lecturer
+12/11/19, 5:38 am - Sparks: How so, which data are trying to pull?
+12/11/19, 5:46 am - Sparks: I can only be at campus at 07:00am to help. *Meanwhile* please confirm the *user stories* so that I can document them🙏🙏
+12/11/19, 6:14 am - Simba: Nobile we will decide on user stories together
+12/11/19, 6:14 am - Simba: In the mean time if u can fix the component diagram on wiki
+12/11/19, 6:27 am - Sparks: I'm done with pull data from database
+12/11/19, 6:27 am - Sparks: I'm on my way
+12/11/19, 6:28 am - Simba: Okay
+12/11/19, 8:14 am - Sparks: https://youtu.be/2NinkAloIxQ
